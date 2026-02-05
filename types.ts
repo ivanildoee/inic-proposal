@@ -52,6 +52,7 @@ export interface SlideItem {
   title: string;
   subtitle: string;
   image: string;
+  subimage?: string;
 }
 
 export interface PartnerItem {

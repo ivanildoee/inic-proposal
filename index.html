@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt-PT" class="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +11,16 @@
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
       body {
         font-family: 'Montserrat', sans-serif;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .dark body {
+        background-color: #08253b;
+        color: #f3f4f6;
       }
     </style>
     <script>
       tailwind.config = {
+        darkMode: 'class',
         theme: {
           extend: {
             colors: {
@@ -39,7 +45,8 @@
 }
 </script>
 </head>
-  <body>
+  <body class="bg-white text-gray-900 dark:bg-inic-dark dark:text-gray-100">
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
   </body>
 </html>
