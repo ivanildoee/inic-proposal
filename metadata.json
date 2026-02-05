@@ -1,0 +1,7 @@
+{
+  "name": "Portal INIC - São Tomé e Príncipe",
+  "description": "Portal institucional oficial do Instituto de Inovação e Conhecimento (INIC), focado em promover a Sociedade da Informação e Governação Digital.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
